@@ -18,7 +18,7 @@ const Home = () => {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '5e6d1322cemsh5fec3e1a5a928b5p1eb1a3jsn61b33bb62ec1',
+        'X-RapidAPI-Key': process.env.key,
         'X-RapidAPI-Host': 'g-search.p.rapidapi.com'
       }
     };
